@@ -1,0 +1,1049 @@
+body{
+    margin: 0 auto;
+    color: #35475C;
+    font-family:'Open Sans', sans-serif;
+    background-color: #F6F6F6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.auto-padding{
+    padding: 50px 0px;
+}
+
+.head{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sub-head{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Navbar start */
+.navbar{
+    display: block;
+    height: 54px;
+    left: 0px;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    margin-top: 0px !important;
+    position: fixed  !important;
+    z-index: 1;
+    background-color: #EDEDEA   !important;
+    font-family: 'Gilroy ExtraBold', sans-serif;
+}
+
+.navbar-collapse{
+    background-color: #EDEDEA !important;
+}
+.nav-item{
+    margin-right: 30px;
+}
+
+.nav-logo{
+    margin: auto;
+}
+
+.nav-mid{
+    margin: auto;
+}
+
+.nav-icons{
+    color: #35475C;
+}
+
+.dropdown{
+    margin-right: 0px;
+}
+
+.dropdown-menu{
+    background-color:  #EDEDEA !important;
+    border: none !important;
+    
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block ;
+}
+
+.dropdown-item{
+    color: #35475C !important;
+    font-weight: bold !important;
+}
+
+.dropdown-item:hover{
+    color: #3E8AA3 !important;
+    background: none !important;
+}
+
+
+.nav-icons:hover{
+    filter: invert(50%) sepia(32%) saturate(703%) hue-rotate(149deg) brightness(89%) contrast(90%);
+}
+
+.tab {
+    color: #35475C !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tab:hover{
+    color: #3E8AA3 !important;
+}
+/* Navbar end */
+
+
+/* Banner start */
+.banner{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    background: url('assets//happy-young-indian-woman-with-mobile-phone-and-bag-VQK9XT3.png');
+    background-color: #F6F6F6;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-top: 53px;
+}
+
+.main-head{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    max-width: 50vw;
+}
+
+.main-sub-head{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    max-width: 50vw;
+    font-weight: 400;
+}
+
+.btn-banner{
+    background-color: #76B4C8;
+}
+
+.btn-banner:hover{
+    background-color: #5E98AA;
+}
+/* Banner end */
+
+
+/* Partnership start */
+
+.partnership{
+    padding: 30px 0px 40px 0px;
+    background-color: #EFEFEF;
+  }
+  
+  .salesforce-logo{
+    width: 11rem;
+    margin-right: 45px;
+  }
+  
+  .GD-logo{
+    width: 11.5rem;
+}
+
+.tableau-logo{
+    width: 11rem;
+    margin-right: 45px;
+  }
+  
+  /* Partnership end */
+
+  /* Program Objectives start */
+  .objective{
+    /* background-color: #EFEFEF; */
+  }
+  .obj-card{
+    background-color: #ffffffa6;
+  }
+
+  .obj-card > img{
+    filter: invert(22%) sepia(56%) saturate(376%) hue-rotate(171deg) brightness(90%) contrast(84%);
+  }
+  /* Program Objectives end */
+
+
+  /* career JOURNEY start */
+
+  .career-journey{
+    /* background-color: #EFEFEF; */
+  }
+
+  /* career JOURNEY end */
+
+  /* Career readiness start */
+  
+  /* Career readiness end */
+
+
+
+
+
+
+  /* tracks start */
+  .tracks{
+    background-color: #EFEFEF;
+  }
+  .track-cards{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    /* grid-template-rows: 30px 30px; */
+    grid-auto-flow: row;
+    /* justify-content: space-around; */
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .prog-features{
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .salesforce-admin{
+    background-image: url(assets/Mask_Group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+  }
+
+  .salesforce-developer{
+    background-image: url(assets/Mask_Group_1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+  }
+
+  .data-analytics{
+    background-image: url(assets/Mask_Group_2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+  }
+
+  .service-now{
+    background-image: url(assets/Mask_Group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+  }
+
+  .card-head{
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .track-cards > .card{
+    border: none;
+    border-radius: 0px !important;
+    min-height: 243px;
+  }
+
+  .card-partner{
+    width: 30%;
+  }
+
+  .track-card-content{
+    font-size: 0.8em;
+  }
+  .partner-text{
+    font-size: 0.6em;
+    color: #35475C;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  /* tracks end */
+
+
+
+  /* Testimonials start */
+  /* reviews */
+
+.testimonials{
+    text-align: center;
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+
+.review-card-container{
+    margin:auto;
+    width: 75%;
+    background-color: #FFFFFF;
+}
+
+.review-text{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.review-image{
+    justify-content: left;
+}
+
+.review-head{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 18px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #35475C;
+}
+
+.img-left{
+    margin-left: -200px;
+    position: absolute;
+}
+
+.reviewer-name{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #35475C;
+}
+
+.reviewer-p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #35475C;
+    text-align: left;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.reviewer-sign{
+    font-family: 'Quentin';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #C7B08C;
+    transform: rotate(-4.39deg);
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.fa-arrow-circle-left:before, 
+.fa-circle-arrow-left:before,
+.fa-arrow-circle-right:before, 
+.fa-circle-arrow-right:before{
+    color: #35475C;
+}
+
+.carousel-control-prev i{
+    margin-top: 50%;
+    font-size: 50px;
+}
+
+.carousel-control-next i{
+    margin-top: 50%;
+    font-size: 50px;
+}
+  /* Testimonials end */
+  
+
+
+
+  /* Faq start */
+  .faqs{
+    text-align: center;
+    background: #F7F7F7;
+}
+
+
+.accordion {
+    background: #F7F7F7;
+    color: #35475C;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    /* padding: 18px; */
+    padding-top: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-top: 1px solid #A1A9B2;
+  }
+  
+.accordion:after {
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    color: #35475C;
+    float: right;
+    margin-top: -5px;
+    font-size: 25px;
+}
+
+.accordion:hover::after{
+    color: #5D98AA;
+}
+
+.faq-active:after {
+   content: "\2212";   /* Unicode character for "minus" sign (-) */
+   font-size: 25px;
+   color: #35475C;
+}
+
+.panel {
+    padding: 0 18px;
+    text-align: left;
+    background: #F7F7F7;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #35475C;
+    opacity: 0.7;
+}
+  /* Faq end */
+
+
+  /* footer start */
+  .footer{
+        background-color: #EFEFEF;
+    }
+
+    .footer-header{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #35475C;
+    }
+
+    .footer-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: #35475C;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .footer-text ul{
+        list-style-type: none;
+    }
+
+    .footer-text a{
+        color: #35475C;
+    }
+
+    .footer-text li::before {
+        content: '';
+        margin-left: -40px;
+    }
+
+    .footer-text a:hover{
+        text-decoration: none;
+    }
+
+    .social-media-icons{
+        margin-left: -40px;
+        width: 20vw;
+    }
+
+    .social-media-icons i{
+        font-size: 1.4rem;
+        color: #35475C;
+    }
+
+    .footer-logo{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 9px;
+        text-transform: capitalize;
+        color: #35475C;
+        margin-top: -5px;
+    }
+
+    /* .sub-footer-mid{
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+    } */
+
+    .sub-footer-text{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 170%;
+        text-transform: capitalize;
+        color: #A1A9B2;
+        text-align: center;
+        margin-top: -35px;
+        padding-bottom: 10px;
+    }
+
+    .sub-footer-text a{
+        color: #A1A9B2;
+    }
+
+    .sub-footer-text a:hover{
+        text-decoration: none;
+        color: #35475C;
+    }
+
+    .designed-by{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: #A1A9B2;
+        margin-right: 15px ;
+        margin-top: 5px;
+        text-align: right;
+    }
+
+    li > a{
+        text-decoration: none;
+    }
+    
+    .footer-mobile{
+      display: none;
+    }
+
+  /* footer end */
+
+
+
+
+  .only-for-mobile{
+    display: none;
+  }
+
+
+
+  @media screen and (max-width: 770px){
+    
+
+    .footer-pc{
+        display: none !important;
+    }
+
+    
+    .footer-mobile{
+        display: block;
+    }
+}
+
+    @media screen and (max-width: 680px){
+    .only-for-mobile{
+        display: contents;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .cards-pc{
+        display: none;
+    }
+
+    .cards-mobile{
+        display: block;
+        width: max-content;
+        margin: auto auto;
+    }
+
+    .inr-head{
+        display: none;
+    }
+
+    .ri{
+        justify-content: center !important;
+    }
+
+    .ri-button{
+        margin: auto;
+    }
+
+    .ri-btn{
+        margin-top: 2vh !important;
+        margin: auto;
+        display: block;
+        text-align: center !important;
+    }
+
+    .ri-head{
+        width: 95vw;
+        text-align: center;
+        margin: auto !important;; 
+
+    }
+
+    .ri-sub-head{
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .pc-map{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .mobile-map{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .gp-cards-pc{
+        display: none !important;
+    }
+
+    .gp-cards-mobile{
+        display: flex !important;
+    }
+
+    .video-js{
+        width: 100%;
+        height: auto;
+    }
+
+    .videos{
+        width: 100%;
+    }
+
+    .navbar-collapse{
+        padding-left: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 770px){
+    
+
+    .footer-pc{
+        display: none !important;
+    }
+
+    .footer-mobile{
+        display: block;
+    }
+
+    .videos-img{
+        width: 20vw !important;
+        height: auto;
+    }
+
+  }
+
+
+
+  @media screen and (max-width: 680px){
+
+    .chatbox{
+        display: none !important;
+    }
+
+    .chatbox-mobile{
+        display: block !important;
+    }
+    .head-text{
+        font-size: 26px;
+        padding-top: 12vh;
+        width: 80%;
+    }
+
+    .sub-head{
+        font-size: 13px;
+        width: 50vw;
+    }
+
+    .mobile-logo{
+        padding-right: 0px !important;
+    }
+
+    .journey-head{
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .journey-p{
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .journey-text{
+        font-weight: 700;
+        font-size: 10.4144px;
+        width: 100vw;
+        white-space: nowrap;
+    }
+
+    .cac-btn{
+        width: 80vw;
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+    .egp-btn{
+        width: 80vw;
+        margin-left: 20px;
+        margin-top: 1rem;
+        padding: 15px;
+    }
+
+    .banner{
+        background-image: url(mobile-banner.png);
+        background-size: cover;
+        background-position: 100% 50px;
+    }   
+
+    .banner-btns{
+        margin-top: 25vh;
+    }
+
+    .logos img{
+        margin:auto;
+        padding-top: 1rem;
+    }
+
+    .logos-pc{
+        display: none;
+    }
+
+    .logos-mobile{
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .platform-head{
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center !important;
+        margin: auto !important;
+        width: 100%;
+    }
+
+    .crp{
+        margin: auto;
+        overflow: overlay;
+    }
+
+    .crp-head{
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .crp-p{
+        font-weight: 400;
+        font-size: 13px;
+        width: 90vw;
+    }
+
+    .crp-list{
+        font-weight: 400 !important;
+        font-size: 13.1144px !important;
+        color: #35475C !important;
+    }
+
+    .gp-head{
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .gp-p{
+        font-weight: 400;
+        font-size: 13px;
+        width: 90vw;
+    }
+
+    .sub-footer-text{
+        margin: auto !important;
+    }
+
+    /* .carousel-item{
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+    } */
+
+    .ri-head{
+        width: 95vw;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        margin: auto !important;; 
+
+    }
+
+    .ri-sub-head{
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .challenges-head{
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .challenges-p{
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .challenges-row{
+        justify-content: center;
+        column-count: 2 !important;
+
+    }
+
+    .challenges-box{
+        width: 151.47px;
+        max-width: fit-content;
+        height: 114.54px;
+    }
+
+    .challenges-box-text p{
+        font-size: 9px;
+        max-width: 120px;
+        width: max-content;
+        text-align: center;
+        margin: auto;
+        margin-left: -10%;
+        /* margin-bottom: -15px; */
+    }
+
+    .challenges-box-logo img{
+        filter: none;
+        width: 22.84px;
+        height: auto;
+    }
+
+
+    .location-text{
+        font-size: 8.73px;
+    }
+
+    .challenges-explore{
+        text-align: center;
+    }
+
+    .fix-career-head{
+        font-weight: 800;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fix-career-text{
+        font-weight: 400;
+        font-size: 14.9653px;
+    }
+
+    .fix-career-text img{
+        width: 80%;
+        margin-top: 0px !important;
+    }
+
+    .fix-career-btn-a, .fix-career-btn-b{
+        width: 80vw;
+        margin-left: 20px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .fix-careet-btns{
+        margin: auto !important;
+    }
+
+    .fix-career-img{
+        max-width: 99vw !important;
+        margin: auto !important;
+        padding-top: 20px;
+        margin-left: -1.5vw !important;
+    }
+
+    .fix-career-img-mobile{
+        width: 70vw;
+    }
+
+    .reviewer-sign{
+        margin-top: 0px ;
+        margin-bottom: 20px;
+    }
+
+    .only-for-pc{
+        display: none !important;
+    }
+
+    .ri-button{
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+
+    .ri-btn{
+        margin-top: 2vh !important;
+        margin: auto;
+        display: block;
+        text-align: center !important;
+    }
+
+    .ri-shortcuts{
+        display: flex;
+        width: 100%;
+        margin: 0px 0px 0px 0px !important;
+    } 
+
+   
+    .only-for-mobile{
+        display: contents;
+    }
+}
+  
+
+  @media screen and (max-width: 470px){
+        .journey-icons{
+            width: min-content;
+            margin: auto;
+        }
+
+        .journey-icon img{
+            width: 41px;
+            height: 41.47px;
+        }
+
+        .journey-p{
+            width: 80vw; 
+        }
+
+        .platform-p{ 
+            width: 80vw; 
+            margin: auto;
+            font-size: 13px;
+        }
+
+        .challenges-box{
+            margin-right: 8px;
+        }
+
+        .rank-p{
+            width: 80vw; 
+            margin: auto;
+            font-size: 13px;
+        }
+
+        .rank-text{
+            font-size: 9px;
+            white-space: nowrap;
+        }
+
+        .countdown-row{
+            width: 85vw;
+            margin: auto !important;
+        }
+
+        .rank-count{
+            font-size: 34.9118px;
+        }
+
+        .rank-count img{
+            width: 20%;
+            margin: auto;
+        }
+
+        .project-icon{
+            width: 15% !important;
+        }
+
+        .line{
+            height: 8rem;
+            margin-top: 2rem;
+        }
+
+
+        .ri-tech{
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            font-size: 8.21px;
+        }
+
+        .ri-shortcuts{
+            justify-content: space-around;
+        }
+
+        .rank-count{
+            margin-top: 50%;
+        }
+
+        .review-image{
+            margin: auto !important;
+            /* padding-right: 30px; */
+        }
+
+        .rank-head{
+            font-size: 18px !important;
+        }
+
+        .platform-sub-p{
+            margin-right: 18%;
+        }
+
+        /* .review-card-container{
+            width: 100vw;
+        } */
+
+        .carousel-control-prev .carousel-control-next{
+            position: absolute !important;
+        }
+
+        .social-media-icons{
+            column-count: 7;
+        }
+  }
+
+@media screen and (max-width: 300px){
+        .mobile-map{
+            width: 70vw;
+        }
+
+        .mobile-logo{
+            
+            padding-left: 2px !important;
+        }
+
+        .ri-btn{
+            width: 80%;
+        }
+}
+
+
+
