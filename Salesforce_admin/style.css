@@ -276,7 +276,7 @@ body{
 
 .platform-p{
     color:#35475C; 
-    width: 80vw; 
+    /* width: 80vw;  */
     text-transform: capitalize; 
     margin: auto;
 }
@@ -401,7 +401,7 @@ body{
 
 .crp{
     text-align: center;
-    background-color: #EFEFEF;
+    background-color: #808A96;
     justify-content: center;
     align-items: center;
 }
@@ -422,19 +422,19 @@ body{
     width: 22rem;
 }
 
-.cards-pc:hover .crp-card:not(:hover){
+/* .cards-pc:hover .crp-card:not(:hover){
     filter: blur(4px);
-}
+} */
 
 .crp-head{
     text-transform: uppercase; 
-    color: #35475C;  
+    color: #FFFFFF;  
     font-weight: 800; 
     font-size: 30px;
 }
 
 .crp-p{
-    color:#35475C; 
+    color:#FFFFFF; 
     width: 50vw; 
     text-transform: capitalize; 
     margin: auto;
